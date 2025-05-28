@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  background: #234;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+nav a {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 2em;
+  background: #fff;
+  max-width: 800px;
+  margin: 2em auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+}
+h1, h2 {
+  color: #234;
+}
+.button {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  background: #ffd700;
+  color: #234;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 1em;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+.button:hover {
+  background: #ffec80;
+}
+.courses {
+  list-style: none;
+  padding: 0;
+}
+.courses li {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1em;
+}
+.portrait {
+  width: 180px;
+  border-radius: 50%;
+  float: right;
+  margin: 0 0 1em 2em;
+}
+section.highlight {
+  background: #f0e9c9;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 2em;
+}
+form input, form textarea {
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+form button {
+  margin-top: 0.5em;
+}
+@media (max-width: 600px) {
+  main {
+    padding: 1em;
+    margin: 0.5em;
+  }
+  .portrait {
+    float: none;
+    display: block;
+    margin: 0 auto 1em auto;
+  }
+}
